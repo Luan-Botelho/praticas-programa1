@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Estruturas de Condição</title>
+        <script>
+    const salario = 1000
+     const cargo = prompt ('Digite um cargo');
+     let aumento = 0;
+
+     switch (cargo) {
+        case 'Estagiário':
+            aumento = 100/100
+            break;
+        case 'Analista':
+            aumento = 50/100
+            break;
+        case 'Gerente':
+            aumento = 30/100
+            break;
+        case 'Presidente':  
+            aumento = 10/100
+            break;
+
+     }
+
+     console.log (aumento);
+
+
+
+
+     const n1 = Number (prompt ('Digite a nota 1'));
+     const n2 = Number (prompt ('Digite a nota 2'));
+     const n3 = Number (prompt ('Digite a nota 3'));
+     const n4 = Number (prompt ('Digite a nota 4'));
+
+     const media = (n1 + n2 + n3 + n4) / 4;
+
+     console.log ('A media é', media);
+
+     let mensagem = media >= 7 ? 'Aprovado' : 'Reprovado';
+
+    console.log (mensagem);
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
